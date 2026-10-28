@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-28",
+  "timezone": "Asia/Taipei",
+  "status": "passed",
+  "wranglerVersion": "4.154.0",
+  "command": "wrangler deploy --dry-run --outdir .wrangler/dry-run",
+  "worker": "html5games-videopoker",
+  "assetDirectory": "dist/client",
+  "binding": "ASSETS",
+  "deployed": false
+}

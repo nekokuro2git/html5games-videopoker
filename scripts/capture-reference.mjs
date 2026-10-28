@@ -1,0 +1,25 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { createHash } from 'node:crypto';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const base='https://casino-wbgame.tadagaming.com/videopoker/';
+const source=path.join(root,'research/evidence/source');
+const reference=path.join(root,'research/reference');
+const manifest=[];
+async function get(url,file){const response=await fetch(url);if(!response.ok)throw new Error(`${response.status}: ${url}`);const bytes=Buffer.from(await response.arrayBuffer());await fs.mkdir(path.dirname(file),{recursive:true});await fs.writeFile(file,bytes);manifest.push({url,file:path.relative(root,file).replaceAll('\\','/'),bytes:bytes.length,sha256:createHash('sha256').update(bytes).digest('hex')});}
+const files=['index.html','index.6b55b.js','application.3c0b4.js','src/import-map.aefb1.json','src/settings.7474c.json','src/chunks/bundle.826a2.js','assets/game/config.13167.json','assets/game/index.13167.js','assets/main/config.335c5.json'];
+for(const file of files)await get(base+file,path.join(source,file));
+await get(base+'assets/game/import/0c/0c70ebca0.9a3ea.json',path.join(source,'assets/game/pack.json'));
+await get(base+'assets/main/import/0d/0ddb19405.63e03.json',path.join(source,'assets/main/pack.json'));
+const config=JSON.parse(await fs.readFile(path.join(source,'assets/game/config.13167.json'),'utf8'));
+const alphabet='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
+let compressed=config.uuids[82],hex=compressed.slice(0,2);
+for(let i=2;i<22;i+=2)hex+=((alphabet.indexOf(compressed[i])<<6)|alphabet.indexOf(compressed[i+1])).toString(16).padStart(3,'0');
+const uuid=`${hex.slice(0,8)}-${hex.slice(8,12)}-${hex.slice(12,16)}-${hex.slice(16,20)}-${hex.slice(20)}`;
+const vi=config.versions.native.findIndex((v,i)=>i%2===0&&v===82);
+await get(`${base}assets/game/native/${uuid.slice(0,2)}/${uuid}.${config.versions.native[vi+1]}.bin`,path.join(source,'card-skeleton.bin'));
+const gallery='https://storage.googleapis.com/tada-cdn-asia/All-In-One/production/img/jiliPlusPlayer/games/';
+for(const [name,file]of [['main','z3WZm9nqugUJqC9XykGo62ZhNKrIesa7OplswZf5.png'],['win','keL6dW4H1cCJmXA37ZpvEcivjLKLcSiGuUm5yHiW.png'],['double','uPrAJxYKPnQlwm8C2BgJFGLfZiGbdtR9LQ3MnL9B.png'],['clear','uOoE9UgQq5EkaaBgWNbEuKam4jvfyvmaTWpsRGAR.png']])await get(gallery+file,path.join(reference,`${name}.png`));
+await fs.writeFile(path.join(root,'research/evidence/reference-manifest.json'),JSON.stringify({at:new Date().toISOString(),source:'https://jiligames.com/PlusIntro/253?showGame=true',files:manifest},null,2));
+console.log(JSON.stringify({files:manifest.length}));

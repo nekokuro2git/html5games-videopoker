@@ -1,0 +1,16 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"result\":{\"path\":\"D:\\\\workspace\\\\html5games\\\\games\\\\VideoPoker\\\\research\\\\evidence\\\\rea-session.json\",\"bytes\":57611298,\"records\":4,\"unknowns\":0}}"
+    }
+  ],
+  "structuredContent": {
+    "result": {
+      "path": "D:\\workspace\\html5games\\games\\VideoPoker\\research\\evidence\\rea-session.json",
+      "bytes": 57611298,
+      "records": 4,
+      "unknowns": 0
+    }
+  }
+}

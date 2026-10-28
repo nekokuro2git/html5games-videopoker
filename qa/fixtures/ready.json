@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "phase": "ready",
+  "balance": 4000000,
+  "bet": 10000,
+  "pending": 0,
+  "hand": [],
+  "held": [
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "deck": [],
+  "result": null,
+  "round": 0,
+  "history": [],
+  "double": null,
+  "secured": 0,
+  "collected": 0,
+  "stats": {
+    "played": 0,
+    "wagered": 0,
+    "returned": 0,
+    "bestWin": 0
+  }
+}

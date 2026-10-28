@@ -1,0 +1,1407 @@
+{
+  "at": "2026-10-28T11:17:25.469Z",
+  "status": "passed",
+  "browser": "Chrome via CUA",
+  "developmentOrigin": "http://127.0.0.1:4284",
+  "productionBuildOrigin": "http://127.0.0.1:4285",
+  "checks": [
+    {
+      "name": "Default English and five dealt cards",
+      "passed": true,
+      "detail": {
+        "balance": "39,900",
+        "cards": [
+          "4 of Clubs",
+          "Ace of Clubs",
+          "2 of Diamonds",
+          "7 of Diamonds",
+          "Ace of Spades"
+        ],
+        "held": [
+          "false",
+          "true",
+          "false",
+          "false",
+          "true"
+        ],
+        "lang": "en",
+        "phase": "hold"
+      }
+    },
+    {
+      "name": "Reload preserves balance, cards and hold choices",
+      "passed": true,
+      "detail": {
+        "balance": "39,900",
+        "cards": [
+          "4 of Clubs",
+          "Ace of Clubs",
+          "2 of Diamonds",
+          "7 of Diamonds",
+          "Ace of Spades"
+        ],
+        "held": [
+          "true",
+          "true",
+          "false",
+          "false",
+          "true"
+        ]
+      }
+    },
+    {
+      "name": "Change keeps selected cards",
+      "passed": true,
+      "detail": [
+        "4 of Clubs",
+        "Ace of Clubs",
+        "10 of Hearts",
+        "4 of Hearts",
+        "Ace of Spades"
+      ]
+    },
+    {
+      "name": "640×1136 source comparison layout has no overflow or missing images",
+      "passed": true,
+      "detail": {
+        "controls": [
+          {
+            "box": {
+              "bottom": 1077.9375,
+              "height": 79.96875,
+              "left": 20,
+              "right": 200.0104217529297,
+              "top": 997.96875,
+              "width": 180.0104217529297,
+              "x": 20,
+              "y": 997.96875
+            },
+            "text": "Bet\n100"
+          },
+          {
+            "box": {
+              "bottom": 1077.9375,
+              "height": 79.96875,
+              "left": 209.98959350585935,
+              "right": 430.00001525878906,
+              "top": 997.96875,
+              "width": 220.0104217529297,
+              "x": 209.98959350585935,
+              "y": 997.96875
+            },
+            "text": "Change"
+          },
+          {
+            "box": {
+              "bottom": 1077.9375,
+              "height": 79.96875,
+              "left": 439.9791870117187,
+              "right": 620.0000305175781,
+              "top": 997.96875,
+              "width": 180.02084350585938,
+              "x": 439.9791870117187,
+              "y": 997.96875
+            },
+            "text": "Auto"
+          }
+        ],
+        "images": [],
+        "page": [
+          640,
+          1136
+        ],
+        "stage": {
+          "bottom": 1136,
+          "height": 1136,
+          "left": 0,
+          "right": 640,
+          "top": 0,
+          "width": 640,
+          "x": 0,
+          "y": 0
+        },
+        "viewport": [
+          640,
+          1136
+        ]
+      }
+    },
+    {
+      "name": "Keyboard 1 toggles a held card even while that card has focus",
+      "passed": true,
+      "detail": {
+        "heldBefore": "false",
+        "heldAfter": "true"
+      }
+    },
+    {
+      "name": "Responsive layout 320×568",
+      "passed": true,
+      "detail": {
+        "broken": [],
+        "controls": [
+          {
+            "bottom": 538.9583549499512,
+            "height": 39.97916793823242,
+            "left": 10,
+            "right": 100,
+            "top": 498.9791870117187,
+            "width": 90,
+            "x": 10,
+            "y": 498.9791870117187
+          },
+          {
+            "bottom": 538.9583549499512,
+            "height": 39.97916793823242,
+            "left": 104.98958587646484,
+            "right": 215.00000762939453,
+            "top": 498.9791870117187,
+            "width": 110.01042175292967,
+            "x": 104.98958587646484,
+            "y": 498.9791870117187
+          },
+          {
+            "bottom": 538.9583549499512,
+            "height": 39.97916793823242,
+            "left": 219.98959350585935,
+            "right": 310.00001525878906,
+            "top": 498.9791870117187,
+            "width": 90.01042175292969,
+            "x": 219.98959350585935,
+            "y": 498.9791870117187
+          }
+        ],
+        "height": 568,
+        "stage": {
+          "bottom": 568,
+          "height": 568,
+          "left": 0,
+          "right": 320,
+          "top": 0,
+          "width": 320,
+          "x": 0,
+          "y": 0
+        },
+        "viewport": [
+          320,
+          568
+        ],
+        "width": 320
+      }
+    },
+    {
+      "name": "Responsive layout 390×844",
+      "passed": true,
+      "detail": {
+        "broken": [],
+        "controls": [
+          {
+            "bottom": 732.7396049499512,
+            "height": 48.72916793823242,
+            "left": 12.1875,
+            "right": 121.875,
+            "top": 684.0104370117188,
+            "width": 109.6875,
+            "x": 12.1875,
+            "y": 684.0104370117188
+          },
+          {
+            "bottom": 732.7396049499512,
+            "height": 48.72916793823242,
+            "left": 127.95833587646484,
+            "right": 262.03125762939453,
+            "top": 684.0104370117188,
+            "width": 134.0729217529297,
+            "x": 127.95833587646484,
+            "y": 684.0104370117188
+          },
+          {
+            "bottom": 732.7396049499512,
+            "height": 48.72916793823242,
+            "left": 268.1145935058594,
+            "right": 377.81251525878906,
+            "top": 684.0104370117188,
+            "width": 109.69792175292967,
+            "x": 268.1145935058594,
+            "y": 684.0104370117188
+          }
+        ],
+        "height": 844,
+        "stage": {
+          "bottom": 768.125,
+          "height": 692.25,
+          "left": 0,
+          "right": 390,
+          "top": 75.875,
+          "width": 390,
+          "x": 0,
+          "y": 75.875
+        },
+        "viewport": [
+          390,
+          844
+        ],
+        "width": 390
+      }
+    },
+    {
+      "name": "Responsive layout 768×1024",
+      "passed": true,
+      "detail": {
+        "broken": [],
+        "controls": [
+          {
+            "bottom": 971.6562728881836,
+            "height": 72.08333587646484,
+            "left": 113.57292175292967,
+            "right": 275.84376525878906,
+            "top": 899.5729370117188,
+            "width": 162.27084350585938,
+            "x": 113.57292175292967,
+            "y": 899.5729370117188
+          },
+          {
+            "bottom": 971.6562728881836,
+            "height": 72.08333587646484,
+            "left": 284.8333435058594,
+            "right": 483.15626525878906,
+            "top": 899.5729370117188,
+            "width": 198.3229217529297,
+            "x": 284.8333435058594,
+            "y": 899.5729370117188
+          },
+          {
+            "bottom": 971.6562728881836,
+            "height": 72.08333587646484,
+            "left": 492.1458435058594,
+            "right": 654.4270935058594,
+            "top": 899.5729370117188,
+            "width": 162.28125,
+            "x": 492.1458435058594,
+            "y": 899.5729370117188
+          }
+        ],
+        "height": 1024,
+        "stage": {
+          "bottom": 1023.9896240234376,
+          "height": 1023.9896240234376,
+          "left": 95.55208587646484,
+          "right": 672.4479598999023,
+          "top": 0,
+          "width": 576.8958740234375,
+          "x": 95.55208587646484,
+          "y": 0
+        },
+        "viewport": [
+          768,
+          1024
+        ],
+        "width": 768
+      }
+    },
+    {
+      "name": "Responsive layout 1440×900",
+      "passed": true,
+      "detail": {
+        "broken": [],
+        "controls": [
+          {
+            "bottom": 853.9896049499512,
+            "height": 63.35416793823242,
+            "left": 482.3229370117187,
+            "right": 624.9375305175781,
+            "top": 790.6354370117188,
+            "width": 142.61459350585938,
+            "x": 482.3229370117187,
+            "y": 790.6354370117188
+          },
+          {
+            "bottom": 853.9896049499512,
+            "height": 63.35416793823242,
+            "left": 632.84375,
+            "right": 807.1458435058594,
+            "top": 790.6354370117188,
+            "width": 174.30209350585938,
+            "x": 632.84375,
+            "y": 790.6354370117188
+          },
+          {
+            "bottom": 853.9896049499512,
+            "height": 63.35416793823242,
+            "left": 815.0521240234375,
+            "right": 957.6771240234376,
+            "top": 790.6354370117188,
+            "width": 142.625,
+            "x": 815.0521240234375,
+            "y": 790.6354370117188
+          }
+        ],
+        "height": 900,
+        "stage": {
+          "bottom": 899.9896240234375,
+          "height": 899.9896240234375,
+          "left": 466.4791870117187,
+          "right": 973.5208740234376,
+          "top": 0,
+          "width": 507.0416870117187,
+          "x": 466.4791870117187,
+          "y": 0
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "width": 1440
+      }
+    },
+    {
+      "name": "Half Double credits 400 and risks 400 from an 800 win",
+      "passed": true,
+      "detail": {
+        "bank": "40,300",
+        "phase": "double",
+        "win": "400"
+      }
+    },
+    {
+      "name": "Reload retains protected half and pending Double Up",
+      "passed": true,
+      "detail": {
+        "bank": "40,300",
+        "phase": "double",
+        "win": "400"
+      }
+    },
+    {
+      "name": "Cash Out credits the remaining half exactly once",
+      "passed": true,
+      "detail": "40,700"
+    },
+    {
+      "name": "Wrong Double Up guess loses only the pending stake",
+      "passed": true,
+      "detail": {
+        "phase": "double-result",
+        "text": "Better luck next time",
+        "win": "0"
+      }
+    },
+    {
+      "name": "A 7 pushes without changing the stake",
+      "passed": true,
+      "detail": {
+        "phase": "double-result",
+        "text": "7 — Push. Try again!",
+        "win": "200"
+      }
+    },
+    {
+      "name": "Successful Double Up step 2",
+      "passed": true,
+      "detail": {
+        "prompt": "You win!",
+        "win": "400"
+      }
+    },
+    {
+      "name": "Successful Double Up step 3",
+      "passed": true,
+      "detail": {
+        "prompt": "You win!",
+        "win": "800"
+      }
+    },
+    {
+      "name": "Successful Double Up step 4",
+      "passed": true,
+      "detail": {
+        "prompt": "You win!",
+        "win": "1,600"
+      }
+    },
+    {
+      "name": "Successful Double Up step 5",
+      "passed": true,
+      "detail": {
+        "prompt": "Clear poker! 32x",
+        "win": "3,200"
+      }
+    },
+    {
+      "name": "Five successful guesses clear and pay a 32x win",
+      "passed": true,
+      "detail": {
+        "balance": "43,100",
+        "phase": "collected",
+        "win": "0"
+      }
+    },
+    {
+      "name": "Rules explain Jokers, paytable, Double Up and keyboard controls",
+      "passed": true,
+      "detail": 1374
+    },
+    {
+      "name": "Escape closes the modal",
+      "passed": true
+    },
+    {
+      "name": "History shows the completed hand and collected 3200 return",
+      "passed": true,
+      "detail": "Game History\nClose\nHands\n1\nBest win\n3,200\nReturned\n3,200\n#000001 · 2 Pair\n3,200\nBet 100 · 08:00 PM"
+    },
+    {
+      "name": "Settings persist across reload and language stays English",
+      "passed": true,
+      "detail": {
+        "checkboxes": [
+          {
+            "checked": false,
+            "label": "Sound effects"
+          },
+          {
+            "checked": true,
+            "label": "Background music"
+          },
+          {
+            "checked": true,
+            "label": "Suggested holds"
+          },
+          {
+            "checked": false,
+            "label": "Fast play"
+          }
+        ],
+        "language": "en"
+      }
+    },
+    {
+      "name": "Bet selection updates the stake between hands",
+      "passed": true,
+      "detail": "Bet\n10"
+    },
+    {
+      "name": "Auto Play completes exactly ten hands and stops",
+      "passed": true,
+      "detail": {
+        "before": 1,
+        "after": 11,
+        "phase": "collected",
+        "balance": 4306000
+      }
+    },
+    {
+      "name": "Manual Auto stop returns control without an extra round",
+      "passed": true,
+      "detail": {
+        "button": "Stop 100",
+        "round": 13,
+        "phase": "lose"
+      }
+    },
+    {
+      "name": "Stopping Auto during a dealt hand preserves manual Change",
+      "passed": true,
+      "detail": {
+        "phase": "hold",
+        "round": 16
+      }
+    },
+    {
+      "name": "Auto stop-on-win collects the first winning hand and stops",
+      "passed": true,
+      "detail": {
+        "played": 6,
+        "lastResult": "straight-flush",
+        "phase": "collected",
+        "pending": 0
+      }
+    },
+    {
+      "name": "A simulated page-hidden event stops Auto Play",
+      "passed": true,
+      "detail": {
+        "simulation": true,
+        "overrideRestored": true
+      }
+    },
+    {
+      "name": "Insufficient balance disables Deal",
+      "passed": true
+    },
+    {
+      "name": "A lower affordable bet enables Deal",
+      "passed": true
+    },
+    {
+      "name": "Space deals once and disabled suggestions leave every card unheld",
+      "passed": true,
+      "detail": {
+        "balance": "0",
+        "held": [
+          "false",
+          "false",
+          "false",
+          "false",
+          "false"
+        ],
+        "phase": "hold"
+      }
+    },
+    {
+      "name": "Space changes a hand without an additional debit",
+      "passed": true
+    },
+    {
+      "name": "Corrupt browser save recovers to a playable session",
+      "passed": true,
+      "detail": {
+        "balance": "40,000",
+        "phase": "ready"
+      }
+    },
+    {
+      "name": "Production build starts in English with 40000 coins",
+      "passed": true
+    },
+    {
+      "name": "Production bundle completes a real shuffled hand",
+      "passed": true,
+      "detail": {
+        "round": 1,
+        "phase": "lose",
+        "balance": 3990000
+      }
+    },
+    {
+      "name": "New Session restores the balance and clears prior hands",
+      "passed": true
+    },
+    {
+      "name": "Production browser reports no JavaScript exceptions",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Production resources have no HTTP errors",
+      "passed": true,
+      "detail": {
+        "responses": 18,
+        "networkFailures": 0
+      }
+    },
+    {
+      "name": "Production requests stay on the local origin",
+      "passed": true,
+      "detail": {
+        "resources": 17
+      }
+    },
+    {
+      "name": "Production console has no errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "checkCount": 41,
+  "attempts": [
+    {
+      "name": "Default English and five dealt cards",
+      "passed": true,
+      "detail": {
+        "balance": "39,900",
+        "cards": [
+          "4 of Clubs",
+          "Ace of Clubs",
+          "2 of Diamonds",
+          "7 of Diamonds",
+          "Ace of Spades"
+        ],
+        "held": [
+          "false",
+          "true",
+          "false",
+          "false",
+          "true"
+        ],
+        "lang": "en",
+        "phase": "hold"
+      }
+    },
+    {
+      "name": "Reload preserves balance, cards and hold choices",
+      "passed": true,
+      "detail": {
+        "balance": "39,900",
+        "cards": [
+          "4 of Clubs",
+          "Ace of Clubs",
+          "2 of Diamonds",
+          "7 of Diamonds",
+          "Ace of Spades"
+        ],
+        "held": [
+          "true",
+          "true",
+          "false",
+          "false",
+          "true"
+        ]
+      }
+    },
+    {
+      "name": "Change keeps selected cards",
+      "passed": true,
+      "detail": [
+        "4 of Clubs",
+        "Ace of Clubs",
+        "10 of Hearts",
+        "4 of Hearts",
+        "Ace of Spades"
+      ]
+    },
+    {
+      "name": "640×1136 source comparison layout has no overflow or missing images",
+      "passed": true,
+      "detail": {
+        "controls": [
+          {
+            "box": {
+              "bottom": 1077.9375,
+              "height": 79.96875,
+              "left": 20,
+              "right": 200.0104217529297,
+              "top": 997.96875,
+              "width": 180.0104217529297,
+              "x": 20,
+              "y": 997.96875
+            },
+            "text": "Bet\n100"
+          },
+          {
+            "box": {
+              "bottom": 1077.9375,
+              "height": 79.96875,
+              "left": 209.98959350585935,
+              "right": 430.00001525878906,
+              "top": 997.96875,
+              "width": 220.0104217529297,
+              "x": 209.98959350585935,
+              "y": 997.96875
+            },
+            "text": "Change"
+          },
+          {
+            "box": {
+              "bottom": 1077.9375,
+              "height": 79.96875,
+              "left": 439.9791870117187,
+              "right": 620.0000305175781,
+              "top": 997.96875,
+              "width": 180.02084350585938,
+              "x": 439.9791870117187,
+              "y": 997.96875
+            },
+            "text": "Auto"
+          }
+        ],
+        "images": [],
+        "page": [
+          640,
+          1136
+        ],
+        "stage": {
+          "bottom": 1136,
+          "height": 1136,
+          "left": 0,
+          "right": 640,
+          "top": 0,
+          "width": 640,
+          "x": 0,
+          "y": 0
+        },
+        "viewport": [
+          640,
+          1136
+        ]
+      }
+    },
+    {
+      "name": "Keyboard 1 toggles a held card even while that card has focus",
+      "passed": true,
+      "detail": {
+        "heldBefore": "false",
+        "heldAfter": "true"
+      }
+    },
+    {
+      "name": "Responsive layout 320×568",
+      "passed": true,
+      "detail": {
+        "broken": [],
+        "controls": [
+          {
+            "bottom": 538.9583549499512,
+            "height": 39.97916793823242,
+            "left": 10,
+            "right": 100,
+            "top": 498.9791870117187,
+            "width": 90,
+            "x": 10,
+            "y": 498.9791870117187
+          },
+          {
+            "bottom": 538.9583549499512,
+            "height": 39.97916793823242,
+            "left": 104.98958587646484,
+            "right": 215.00000762939453,
+            "top": 498.9791870117187,
+            "width": 110.01042175292967,
+            "x": 104.98958587646484,
+            "y": 498.9791870117187
+          },
+          {
+            "bottom": 538.9583549499512,
+            "height": 39.97916793823242,
+            "left": 219.98959350585935,
+            "right": 310.00001525878906,
+            "top": 498.9791870117187,
+            "width": 90.01042175292969,
+            "x": 219.98959350585935,
+            "y": 498.9791870117187
+          }
+        ],
+        "height": 568,
+        "stage": {
+          "bottom": 568,
+          "height": 568,
+          "left": 0,
+          "right": 320,
+          "top": 0,
+          "width": 320,
+          "x": 0,
+          "y": 0
+        },
+        "viewport": [
+          320,
+          568
+        ],
+        "width": 320
+      }
+    },
+    {
+      "name": "Responsive layout 390×844",
+      "passed": true,
+      "detail": {
+        "broken": [],
+        "controls": [
+          {
+            "bottom": 732.7396049499512,
+            "height": 48.72916793823242,
+            "left": 12.1875,
+            "right": 121.875,
+            "top": 684.0104370117188,
+            "width": 109.6875,
+            "x": 12.1875,
+            "y": 684.0104370117188
+          },
+          {
+            "bottom": 732.7396049499512,
+            "height": 48.72916793823242,
+            "left": 127.95833587646484,
+            "right": 262.03125762939453,
+            "top": 684.0104370117188,
+            "width": 134.0729217529297,
+            "x": 127.95833587646484,
+            "y": 684.0104370117188
+          },
+          {
+            "bottom": 732.7396049499512,
+            "height": 48.72916793823242,
+            "left": 268.1145935058594,
+            "right": 377.81251525878906,
+            "top": 684.0104370117188,
+            "width": 109.69792175292967,
+            "x": 268.1145935058594,
+            "y": 684.0104370117188
+          }
+        ],
+        "height": 844,
+        "stage": {
+          "bottom": 768.125,
+          "height": 692.25,
+          "left": 0,
+          "right": 390,
+          "top": 75.875,
+          "width": 390,
+          "x": 0,
+          "y": 75.875
+        },
+        "viewport": [
+          390,
+          844
+        ],
+        "width": 390
+      }
+    },
+    {
+      "name": "Responsive layout 768×1024",
+      "passed": true,
+      "detail": {
+        "broken": [],
+        "controls": [
+          {
+            "bottom": 971.6562728881836,
+            "height": 72.08333587646484,
+            "left": 113.57292175292967,
+            "right": 275.84376525878906,
+            "top": 899.5729370117188,
+            "width": 162.27084350585938,
+            "x": 113.57292175292967,
+            "y": 899.5729370117188
+          },
+          {
+            "bottom": 971.6562728881836,
+            "height": 72.08333587646484,
+            "left": 284.8333435058594,
+            "right": 483.15626525878906,
+            "top": 899.5729370117188,
+            "width": 198.3229217529297,
+            "x": 284.8333435058594,
+            "y": 899.5729370117188
+          },
+          {
+            "bottom": 971.6562728881836,
+            "height": 72.08333587646484,
+            "left": 492.1458435058594,
+            "right": 654.4270935058594,
+            "top": 899.5729370117188,
+            "width": 162.28125,
+            "x": 492.1458435058594,
+            "y": 899.5729370117188
+          }
+        ],
+        "height": 1024,
+        "stage": {
+          "bottom": 1023.9896240234376,
+          "height": 1023.9896240234376,
+          "left": 95.55208587646484,
+          "right": 672.4479598999023,
+          "top": 0,
+          "width": 576.8958740234375,
+          "x": 95.55208587646484,
+          "y": 0
+        },
+        "viewport": [
+          768,
+          1024
+        ],
+        "width": 768
+      }
+    },
+    {
+      "name": "Responsive layout 1440×900",
+      "passed": true,
+      "detail": {
+        "broken": [],
+        "controls": [
+          {
+            "bottom": 853.9896049499512,
+            "height": 63.35416793823242,
+            "left": 482.3229370117187,
+            "right": 624.9375305175781,
+            "top": 790.6354370117188,
+            "width": 142.61459350585938,
+            "x": 482.3229370117187,
+            "y": 790.6354370117188
+          },
+          {
+            "bottom": 853.9896049499512,
+            "height": 63.35416793823242,
+            "left": 632.84375,
+            "right": 807.1458435058594,
+            "top": 790.6354370117188,
+            "width": 174.30209350585938,
+            "x": 632.84375,
+            "y": 790.6354370117188
+          },
+          {
+            "bottom": 853.9896049499512,
+            "height": 63.35416793823242,
+            "left": 815.0521240234375,
+            "right": 957.6771240234376,
+            "top": 790.6354370117188,
+            "width": 142.625,
+            "x": 815.0521240234375,
+            "y": 790.6354370117188
+          }
+        ],
+        "height": 900,
+        "stage": {
+          "bottom": 899.9896240234375,
+          "height": 899.9896240234375,
+          "left": 466.4791870117187,
+          "right": 973.5208740234376,
+          "top": 0,
+          "width": 507.0416870117187,
+          "x": 466.4791870117187,
+          "y": 0
+        },
+        "viewport": [
+          1440,
+          900
+        ],
+        "width": 1440
+      }
+    },
+    {
+      "name": "Half Double credits 400 and risks 400 from an 800 win",
+      "passed": true,
+      "detail": {
+        "bank": "40,300",
+        "phase": "double",
+        "win": "400"
+      }
+    },
+    {
+      "name": "Reload retains protected half and pending Double Up",
+      "passed": true,
+      "detail": {
+        "bank": "40,300",
+        "phase": "double",
+        "win": "400"
+      }
+    },
+    {
+      "name": "Cash Out credits the remaining half exactly once",
+      "passed": true,
+      "detail": "40,700"
+    },
+    {
+      "name": "Wrong Double Up guess loses only the pending stake",
+      "passed": true,
+      "detail": {
+        "phase": "double-result",
+        "text": "Better luck next time",
+        "win": "0"
+      }
+    },
+    {
+      "name": "A 7 pushes without changing the stake",
+      "passed": true,
+      "detail": {
+        "phase": "double-result",
+        "text": "7 — Push. Try again!",
+        "win": "200"
+      }
+    },
+    {
+      "name": "Successful Double Up step 2",
+      "passed": true,
+      "detail": {
+        "prompt": "You win!",
+        "win": "400"
+      }
+    },
+    {
+      "name": "Successful Double Up step 3",
+      "passed": true,
+      "detail": {
+        "prompt": "You win!",
+        "win": "800"
+      }
+    },
+    {
+      "name": "Successful Double Up step 4",
+      "passed": true,
+      "detail": {
+        "prompt": "You win!",
+        "win": "1,600"
+      }
+    },
+    {
+      "name": "Successful Double Up step 5",
+      "passed": true,
+      "detail": {
+        "prompt": "Clear poker! 32x",
+        "win": "3,200"
+      }
+    },
+    {
+      "name": "Five successful guesses clear and pay a 32x win",
+      "passed": true,
+      "detail": {
+        "balance": "43,100",
+        "phase": "collected",
+        "win": "0"
+      }
+    },
+    {
+      "name": "Rules explain Jokers, paytable, Double Up and keyboard controls",
+      "passed": true,
+      "detail": 1374
+    },
+    {
+      "name": "Escape closes the modal",
+      "passed": true
+    },
+    {
+      "name": "History shows the completed hand and collected 3200 return",
+      "passed": true,
+      "detail": "Game History\nClose\nHands\n1\nBest win\n3,200\nReturned\n3,200\n#000001 · 2 Pair\n3,200\nBet 100 · 08:00 PM"
+    },
+    {
+      "name": "Settings persist across reload and language stays English",
+      "passed": true,
+      "detail": {
+        "checkboxes": [
+          {
+            "checked": false,
+            "label": "Sound effects"
+          },
+          {
+            "checked": true,
+            "label": "Background music"
+          },
+          {
+            "checked": true,
+            "label": "Suggested holds"
+          },
+          {
+            "checked": false,
+            "label": "Fast play"
+          }
+        ],
+        "language": "en"
+      }
+    },
+    {
+      "name": "Bet selection updates the stake between hands",
+      "passed": true,
+      "detail": "Bet\n10"
+    },
+    {
+      "name": "Auto Play completes exactly ten hands and stops",
+      "passed": true,
+      "detail": {
+        "before": 1,
+        "after": 11,
+        "phase": "collected",
+        "balance": 4306000
+      }
+    },
+    {
+      "name": "Manual Auto stop returns control without an extra round",
+      "passed": true,
+      "detail": {
+        "button": "Stop 100",
+        "round": 13,
+        "phase": "lose"
+      }
+    },
+    {
+      "name": "Stopping Auto during a dealt hand preserves the hand for manual play",
+      "passed": false,
+      "detail": "win",
+      "superseded": true,
+      "note": "Fast play completed the draw before the stop click; the observed win remained available for manual cash-out. Retested below with normal timing."
+    },
+    {
+      "name": "Stopping Auto during a dealt hand preserves manual Change",
+      "passed": true,
+      "detail": {
+        "phase": "hold",
+        "round": 16
+      }
+    },
+    {
+      "name": "Auto stop-on-win collects the first winning hand and stops",
+      "passed": true,
+      "detail": {
+        "played": 6,
+        "lastResult": "straight-flush",
+        "phase": "collected",
+        "pending": 0
+      }
+    },
+    {
+      "name": "Switching away from the tab stops Auto Play",
+      "passed": false,
+      "superseded": true,
+      "note": "The browser created a second visible window; both documents reported visibilityState=visible, so no hidden event occurred. Replaced with an explicitly simulated hidden event."
+    },
+    {
+      "name": "A simulated page-hidden event stops Auto Play",
+      "passed": true,
+      "detail": {
+        "simulation": true,
+        "overrideRestored": true
+      }
+    },
+    {
+      "name": "Insufficient balance disables Deal",
+      "passed": true
+    },
+    {
+      "name": "A lower affordable bet enables Deal",
+      "passed": true
+    },
+    {
+      "name": "Space deals once and disabled suggestions leave every card unheld",
+      "passed": true,
+      "detail": {
+        "balance": "0",
+        "held": [
+          "false",
+          "false",
+          "false",
+          "false",
+          "false"
+        ],
+        "phase": "hold"
+      }
+    },
+    {
+      "name": "Space changes a hand without an additional debit",
+      "passed": true
+    },
+    {
+      "name": "Corrupt browser save recovers to a playable session",
+      "passed": true,
+      "detail": {
+        "balance": "40,000",
+        "phase": "ready"
+      }
+    },
+    {
+      "name": "Production build starts in English with 40000 coins",
+      "passed": true
+    },
+    {
+      "name": "Production bundle completes a real shuffled hand",
+      "passed": true,
+      "detail": {
+        "round": 1,
+        "phase": "lose",
+        "balance": 3990000
+      }
+    },
+    {
+      "name": "New Session restores the balance and clears prior hands",
+      "passed": true
+    },
+    {
+      "name": "Production browser reports no JavaScript exceptions",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Production resources have no HTTP errors",
+      "passed": false,
+      "detail": {
+        "responses": 44,
+        "failures": []
+      },
+      "resolved": true,
+      "note": "The browser requested an implicit missing favicon. Added an explicit local reference-derived PNG icon and rebuilt; retested below."
+    },
+    {
+      "name": "Production browser reports no JavaScript exceptions",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Production resources have no HTTP errors",
+      "passed": true,
+      "detail": {
+        "responses": 18,
+        "networkFailures": 0
+      }
+    },
+    {
+      "name": "Production requests stay on the local origin",
+      "passed": true,
+      "detail": {
+        "resources": 17
+      }
+    },
+    {
+      "name": "Production console has no errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "setupRetries": 2,
+  "limitations": [
+    "Source runtime remained at its loader. Official gallery images were used as visual truth.",
+    "The page-hidden handler was tested with a temporary, restored document.hidden override. Actual OS/browser tab hiding was not confirmed because both automated browser windows stayed visible.",
+    "Physical devices, other browser engines and subjective audio playback were not tested."
+  ],
+  "production": {
+    "responses": [
+      {
+        "url": "http://127.0.0.1:4285/",
+        "status": 200,
+        "mime": "text/html"
+      },
+      {
+        "url": "http://127.0.0.1:4285/assets/index-CL36VJgM.css",
+        "status": 200,
+        "mime": "text/css"
+      },
+      {
+        "url": "http://127.0.0.1:4285/assets/index-CkzXKgAa.js",
+        "status": 200,
+        "mime": "text/javascript"
+      },
+      {
+        "url": "http://127.0.0.1:4285/assets/logo.png",
+        "status": 304,
+        "mime": "image/png"
+      },
+      {
+        "url": "http://127.0.0.1:4285/assets/ui/265.png",
+        "status": 304,
+        "mime": "image/png"
+      },
+      {
+        "url": "http://127.0.0.1:4285/assets/cards/Card_Back.png",
+        "status": 304,
+        "mime": "image/png"
+      },
+      {
+        "url": "http://127.0.0.1:4285/assets/ui/341.png",
+        "status": 304,
+        "mime": "image/png"
+      },
+      {
+        "url": "http://127.0.0.1:4285/assets/ui/252.png",
+        "status": 304,
+        "mime": "image/png"
+      },
+      {
+        "url": "http://127.0.0.1:4285/assets/background.png",
+        "status": 304,
+        "mime": "image/png"
+      },
+      {
+        "url": "http://127.0.0.1:4285/assets/ui/198.png",
+        "status": 304,
+        "mime": "image/png"
+      },
+      {
+        "url": "http://127.0.0.1:4285/assets/ui/244.png",
+        "status": 304,
+        "mime": "image/png"
+      },
+      {
+        "url": "http://127.0.0.1:4285/assets/ui/115.png",
+        "status": 304,
+        "mime": "image/png"
+      },
+      {
+        "url": "http://127.0.0.1:4285/assets/ui/215.png",
+        "status": 304,
+        "mime": "image/png"
+      },
+      {
+        "url": "http://127.0.0.1:4285/assets/bahnschrift.ttf",
+        "status": 304,
+        "mime": "font/ttf"
+      },
+      {
+        "url": "http://127.0.0.1:4285/assets/ui/373.png",
+        "status": 304,
+        "mime": "image/png"
+      },
+      {
+        "url": "http://127.0.0.1:4285/assets/ui/289.png",
+        "status": 304,
+        "mime": "image/png"
+      },
+      {
+        "url": "http://127.0.0.1:4285/assets/garamond-bold.ttf",
+        "status": 304,
+        "mime": "font/ttf"
+      },
+      {
+        "url": "http://127.0.0.1:4285/assets/audio/bgm.mp3",
+        "status": 206,
+        "mime": "audio/mpeg"
+      }
+    ],
+    "resources": [
+      {
+        "type": "script",
+        "url": "http://127.0.0.1:4285/assets/index-CkzXKgAa.js"
+      },
+      {
+        "type": "link",
+        "url": "http://127.0.0.1:4285/assets/index-CL36VJgM.css"
+      },
+      {
+        "type": "img",
+        "url": "http://127.0.0.1:4285/assets/logo.png"
+      },
+      {
+        "type": "img",
+        "url": "http://127.0.0.1:4285/assets/ui/265.png"
+      },
+      {
+        "type": "img",
+        "url": "http://127.0.0.1:4285/assets/cards/Card_Back.png"
+      },
+      {
+        "type": "img",
+        "url": "http://127.0.0.1:4285/assets/ui/341.png"
+      },
+      {
+        "type": "img",
+        "url": "http://127.0.0.1:4285/assets/ui/252.png"
+      },
+      {
+        "type": "css",
+        "url": "http://127.0.0.1:4285/assets/background.png"
+      },
+      {
+        "type": "css",
+        "url": "http://127.0.0.1:4285/assets/ui/198.png"
+      },
+      {
+        "type": "css",
+        "url": "http://127.0.0.1:4285/assets/ui/244.png"
+      },
+      {
+        "type": "css",
+        "url": "http://127.0.0.1:4285/assets/ui/115.png"
+      },
+      {
+        "type": "css",
+        "url": "http://127.0.0.1:4285/assets/ui/215.png"
+      },
+      {
+        "type": "css",
+        "url": "http://127.0.0.1:4285/assets/ui/373.png"
+      },
+      {
+        "type": "css",
+        "url": "http://127.0.0.1:4285/assets/ui/289.png"
+      },
+      {
+        "type": "css",
+        "url": "http://127.0.0.1:4285/assets/bahnschrift.ttf"
+      },
+      {
+        "type": "css",
+        "url": "http://127.0.0.1:4285/assets/garamond-bold.ttf"
+      },
+      {
+        "type": "audio",
+        "url": "http://127.0.0.1:4285/assets/audio/bgm.mp3"
+      }
+    ],
+    "exceptions": [],
+    "networkFailures": [],
+    "logs": []
+  }
+}

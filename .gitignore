@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.starter/
+.wrangler/
+.env
+.env.*
+*.log
+research/evidence/source/
+research/evidence/rea-tool-catalog.json
+research/evidence/rea-session.json
+scripts/scripts/
+qa/*-v2.png

@@ -1,0 +1,102 @@
+{
+  "at": "2026-10-28T11:01:03.346Z",
+  "source": "https://jiligames.com/PlusIntro/253?showGame=true",
+  "files": [
+    {
+      "url": "https://casino-wbgame.tadagaming.com/videopoker/index.html",
+      "file": "research/evidence/source/index.html",
+      "bytes": 11383,
+      "sha256": "b2de38f628063a0c3a3eb20954b317acddfa532d539d7be0f8e74f0e38c76c17"
+    },
+    {
+      "url": "https://casino-wbgame.tadagaming.com/videopoker/index.6b55b.js",
+      "file": "research/evidence/source/index.6b55b.js",
+      "bytes": 824,
+      "sha256": "6843d14596b4455d07d237ba2ed74b689b6c50f8e018c8a07c071c20e46290be"
+    },
+    {
+      "url": "https://casino-wbgame.tadagaming.com/videopoker/application.3c0b4.js",
+      "file": "research/evidence/source/application.3c0b4.js",
+      "bytes": 7028,
+      "sha256": "f1d8b600d69e3021efa3052e6eb48d4d044465fefc14e885535247b79e4a02fc"
+    },
+    {
+      "url": "https://casino-wbgame.tadagaming.com/videopoker/src/import-map.aefb1.json",
+      "file": "research/evidence/source/src/import-map.aefb1.json",
+      "bytes": 46,
+      "sha256": "db5715892a8cac42789fd6e9c956586632885bb21a2c34cf3d83be24228ff7c6"
+    },
+    {
+      "url": "https://casino-wbgame.tadagaming.com/videopoker/src/settings.7474c.json",
+      "file": "research/evidence/source/src/settings.7474c.json",
+      "bytes": 2424,
+      "sha256": "e708e0bbee7e74178638641282d2f0531bc2cdd31562b31c8d1cedbac3e01482"
+    },
+    {
+      "url": "https://casino-wbgame.tadagaming.com/videopoker/src/chunks/bundle.826a2.js",
+      "file": "research/evidence/source/src/chunks/bundle.826a2.js",
+      "bytes": 34398,
+      "sha256": "f31b9d05ceafe3204d10b87a15c5bea894e23edd61dfcb2dc915296f914867f3"
+    },
+    {
+      "url": "https://casino-wbgame.tadagaming.com/videopoker/assets/game/config.13167.json",
+      "file": "research/evidence/source/assets/game/config.13167.json",
+      "bytes": 36260,
+      "sha256": "6bd9504e7bb44e2a838ed315329a04a18a137ec17dbb59833d1548f4c5310455"
+    },
+    {
+      "url": "https://casino-wbgame.tadagaming.com/videopoker/assets/game/index.13167.js",
+      "file": "research/evidence/source/assets/game/index.13167.js",
+      "bytes": 380169,
+      "sha256": "11bae815bcc25965737458f64215f019a13d7abdf445d2e0a1de4feba82053d4"
+    },
+    {
+      "url": "https://casino-wbgame.tadagaming.com/videopoker/assets/main/config.335c5.json",
+      "file": "research/evidence/source/assets/main/config.335c5.json",
+      "bytes": 2807,
+      "sha256": "e046d6a7152ec7ee0a50deca161f694ebb43eaba823c18f8054e4cd25ffcadee"
+    },
+    {
+      "url": "https://casino-wbgame.tadagaming.com/videopoker/assets/game/import/0c/0c70ebca0.9a3ea.json",
+      "file": "research/evidence/source/assets/game/pack.json",
+      "bytes": 1427714,
+      "sha256": "a3dee90b59a1e4efdb3a09fefee691aa6a495dfdd0f9a733d561a8c325295e0c"
+    },
+    {
+      "url": "https://casino-wbgame.tadagaming.com/videopoker/assets/main/import/0d/0ddb19405.63e03.json",
+      "file": "research/evidence/source/assets/main/pack.json",
+      "bytes": 66473,
+      "sha256": "ec4e70bca470ca8400b051feb84140c5592816711f21ef5ac6c105ba9b06d9fa"
+    },
+    {
+      "url": "https://casino-wbgame.tadagaming.com/videopoker/assets/game/native/c8/c85cc6ba-45b3-410f-bc39-fa25feed5b26.5ab88.bin",
+      "file": "research/evidence/source/card-skeleton.bin",
+      "bytes": 162240,
+      "sha256": "20056946ac21e49ee2db13ceedac5f116b8dcf8d8acf1aa59edcb3c5b84a6500"
+    },
+    {
+      "url": "https://storage.googleapis.com/tada-cdn-asia/All-In-One/production/img/jiliPlusPlayer/games/z3WZm9nqugUJqC9XykGo62ZhNKrIesa7OplswZf5.png",
+      "file": "research/reference/main.png",
+      "bytes": 366053,
+      "sha256": "5c227883ed56ae01c2af2c703dd4da99b6d05ec2a4ef068a88c3760dcccb9cb4"
+    },
+    {
+      "url": "https://storage.googleapis.com/tada-cdn-asia/All-In-One/production/img/jiliPlusPlayer/games/keL6dW4H1cCJmXA37ZpvEcivjLKLcSiGuUm5yHiW.png",
+      "file": "research/reference/win.png",
+      "bytes": 421153,
+      "sha256": "92f163655c342f1c8d6de65c8af5ad5b2c65a16a3c797aaefce701cac736bcb1"
+    },
+    {
+      "url": "https://storage.googleapis.com/tada-cdn-asia/All-In-One/production/img/jiliPlusPlayer/games/uPrAJxYKPnQlwm8C2BgJFGLfZiGbdtR9LQ3MnL9B.png",
+      "file": "research/reference/double.png",
+      "bytes": 363418,
+      "sha256": "812939cec797e38eb8497f614608179143e7428abf2182354fad146bd7f2dbd4"
+    },
+    {
+      "url": "https://storage.googleapis.com/tada-cdn-asia/All-In-One/production/img/jiliPlusPlayer/games/uOoE9UgQq5EkaaBgWNbEuKam4jvfyvmaTWpsRGAR.png",
+      "file": "research/reference/clear.png",
+      "bytes": 374350,
+      "sha256": "29880966359b160c04d197e77e731af808d60d5baa9082424ce0afce2b727227"
+    }
+  ]
+}
