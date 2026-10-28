@@ -31,12 +31,14 @@ All coins are virtual and have no monetary value. Local outcomes and Double Up r
 ## Verify
 
 ```sh
-npm test
 npm run build
+npm test
 npm run verify:assets
 ```
 
 Tests cover the paytable, Jokers, low/high Aces, deck integrity, held cards, exactly-once debits and credits, protected half stakes, pushes, five Double Up wins, corruption recovery, preferences and 400-round accounting. Asset verification checks every recorded file in both `public` and `dist` and verifies all 54 card skins.
+
+Build before running the full test suite on a fresh checkout: the packaging test verifies emitted files under `dist`.
 
 Browser and visual evidence: [design-qa.md](design-qa.md), [qa/browser-verification.json](qa/browser-verification.json), and [qa/](qa/). GitHub Actions repeats tests, build and asset verification on pushes and pull requests.
 
